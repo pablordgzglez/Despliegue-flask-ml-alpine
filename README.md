@@ -9,16 +9,16 @@ La aplicación Flask desplegada ofrece servicios de Machine Learning, análisis 
 # Estructura del repositorio
 
 .
-├── Ejercicio_1/
+├── Apartado_1/
 │   └── apartado1_AlvaroPablo.sh
-├── Ejercicio_2/
+├── Apartado_2/
 │   ├── apartado_despliegue_Bash_AlvaroPablo.sh
 │   ├── requirements.txt
 │   └── model.py
-├── Ejercicio_3/
+├── Apartado_3/
 │   ├── apartado3_AlvaroPablo.sh
 │   └── topn_selection_AlvaroPablo.py
-├── Ejercicio_4/
+├── Apartado_4/
 │   ├── apartado4_AlvaroPablo.py
 │   └── imágenes generadas
 ├── MEMORIA.pdf
@@ -40,19 +40,19 @@ Entorno recomendado:
 - unzip
 - gcc y librerías de compilación
 
-El script del Ejercicio 1 instala automáticamente las dependencias necesarias.
+El script del Apartado 1 instala automáticamente las dependencias necesarias.
 
 ---
 
-# Instalar dependencias (Ejercicio 1)
+# Instalar dependencias (Apartado 1)
 
 Dar permisos de ejecución:
 
-chmod +x Ejercicio_1/apartado1_AlvaroPablo.sh
+chmod +x Apartado_1/apartado1_AlvaroPablo.sh
 
 Ejecutar como root:
 
-./Ejercicio_1/apartado1_AlvaroPablo.sh
+./Apartado_1/apartado1_AlvaroPablo.sh
 
 Este script instala:
 - python3
@@ -68,7 +68,7 @@ Este script instala:
 
 ---
 
-# Desplegar la aplicación Flask (Ejercicio 2)
+# Desplegar la aplicación Flask (Apartado 2)
 
 El script realiza:
 - Clonado del repositorio ProyectoFUSO
@@ -78,7 +78,7 @@ El script realiza:
 
 Pasos:
 
-cd Ejercicio_2
+cd Apartado_2
 chmod +x apartado_despliegue_Bash_AlvaroPablo.sh
 ./apartado_despliegue_Bash_AlvaroPablo.sh
 
@@ -92,7 +92,7 @@ ifconfig
 
 ---
 
-# Descargar y procesar datos Gowalla (Ejercicio 3)
+# Descargar y procesar datos Gowalla (Apartado 3)
 
 Este script:
 - Descarga dataset desde Google Drive
@@ -106,7 +106,7 @@ Este script:
 
 Ejecutar:
 
-cd Ejercicio_3
+cd Apartado_3
 chmod +x apartado3_AlvaroPablo.sh
 ./apartado3_AlvaroPablo.sh
 
@@ -116,7 +116,7 @@ ProyectoFUSO/templates/html_files/
 
 ---
 
-# Automatización de peticiones HTTP (Ejercicio 4)
+# Automatización de peticiones HTTP (Apartado 4)
 
 El script apartado4_AlvaroPablo.py:
 
@@ -132,7 +132,7 @@ base_url = "http://<IP_DE_LA_VM>:5000"
 
 Ejecutar:
 
-cd Ejercicio_4
+cd Apartado_4
 python3 apartado4_AlvaroPablo.py
 
 Las imágenes se guardarán en el directorio actual con nombres como:
@@ -169,7 +169,3 @@ La aplicación ProyectoFUSO incluye:
 ## Autores
 [@alvaroplmr](https://github.com/alvaroplmr)
 [@pablordgzglez](https://github.com/pablordgzglez)
-
----
-
-
