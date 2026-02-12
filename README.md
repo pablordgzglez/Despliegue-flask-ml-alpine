@@ -6,26 +6,6 @@ La aplicación Flask desplegada ofrece servicios de Machine Learning, análisis 
 
 ---
 
-# Estructura del repositorio
-
-.
-├── Apartado_1/
-│   └── apartado1_AlvaroPablo.sh
-├── Apartado_2/
-│   ├── apartado_despliegue_Bash_AlvaroPablo.sh
-│   ├── requirements.txt
-│   └── model.py
-├── Apartado_3/
-│   ├── apartado3_AlvaroPablo.sh
-│   └── topn_selection_AlvaroPablo.py
-├── Apartado_4/
-│   ├── apartado4_AlvaroPablo.py
-│   └── imágenes generadas
-├── MEMORIA.pdf
-└── Poster.pdf
-
----
-
 # Requisitos
 
 Entorno recomendado:
